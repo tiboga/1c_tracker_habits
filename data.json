@@ -1,0 +1,1026 @@
+{
+    "stat_for_day": {
+        "date": "24.12.2025",
+        "habits": {
+            "good_habits": {
+                "73": {
+                    "ended": false
+                },
+                "89": {
+                    "ended": true
+                },
+                "90": {
+                    "ended": false
+                },
+                "91": {
+                    "ended": true
+                }
+            },
+            "bad_habits": {
+                "74": {
+                    "ended": false
+                },
+                "78": {
+                    "ended": false
+                },
+                "80": {
+                    "ended": true
+                },
+                "82": {
+                    "ended": false
+                },
+                "84": {
+                    "ended": true
+                },
+                "85": {
+                    "ended": false
+                },
+                "86": {
+                    "ended": true
+                },
+                "87": {
+                    "ended": false
+                },
+                "88": {
+                    "ended": false
+                }
+            }
+        }
+    },
+    "habits": {
+        "last_id": 91,
+        "good_habits": {
+            "73": {
+                "name": "asd",
+                "points": 0
+            },
+            "89": {
+                "name": "asdsda",
+                "points": 0
+            },
+            "90": {
+                "name": "sssss",
+                "points": 0
+            },
+            "91": {
+                "name": "aaaaaaaaaaaaaa",
+                "points": 3
+            }
+        },
+        "bad_habits": {
+            "74": {
+                "name": "asd",
+                "points": 0
+            },
+            "78": {
+                "name": "asd",
+                "points": 0
+            },
+            "80": {
+                "name": "aaaa",
+                "points": 0
+            },
+            "82": {
+                "name": "ssssssssssssdddddddddd",
+                "points": 0
+            },
+            "84": {
+                "name": "sadasd",
+                "points": 0
+            },
+            "85": {
+                "name": "asd",
+                "points": 0
+            },
+            "86": {
+                "name": "asdsad",
+                "points": 0
+            },
+            "87": {
+                "name": "asdasd",
+                "points": 0
+            },
+            "88": {
+                "name": "asdasd",
+                "points": 0
+            }
+        }
+    },
+    "stats": [
+        {
+            "date": "21.06.2025",
+            "good_habit_percents": 0.08,
+            "bad_habit_percents": 0.39
+        },
+        {
+            "date": "22.06.2025",
+            "good_habit_percents": 0.65,
+            "bad_habit_percents": 0.48
+        },
+        {
+            "date": "23.06.2025",
+            "good_habit_percents": 0.92,
+            "bad_habit_percents": 0.76
+        },
+        {
+            "date": "24.06.2025",
+            "good_habit_percents": 0.29,
+            "bad_habit_percents": 0.5
+        },
+        {
+            "date": "25.06.2025",
+            "good_habit_percents": 0.65,
+            "bad_habit_percents": 0.97
+        },
+        {
+            "date": "26.06.2025",
+            "good_habit_percents": 0.01,
+            "bad_habit_percents": 0.16
+        },
+        {
+            "date": "27.06.2025",
+            "good_habit_percents": 0.51,
+            "bad_habit_percents": 0.09
+        },
+        {
+            "date": "28.06.2025",
+            "good_habit_percents": 0.56,
+            "bad_habit_percents": 0.92
+        },
+        {
+            "date": "29.06.2025",
+            "good_habit_percents": 0.18,
+            "bad_habit_percents": 0.29
+        },
+        {
+            "date": "30.06.2025",
+            "good_habit_percents": 0.88,
+            "bad_habit_percents": 0.95
+        },
+        {
+            "date": "01.07.2025",
+            "good_habit_percents": 0.59,
+            "bad_habit_percents": 0.46
+        },
+        {
+            "date": "02.07.2025",
+            "good_habit_percents": 0.01,
+            "bad_habit_percents": 0.61
+        },
+        {
+            "date": "03.07.2025",
+            "good_habit_percents": 0.11,
+            "bad_habit_percents": 0.83
+        },
+        {
+            "date": "04.07.2025",
+            "good_habit_percents": 0.53,
+            "bad_habit_percents": 0.6
+        },
+        {
+            "date": "05.07.2025",
+            "good_habit_percents": 0.33,
+            "bad_habit_percents": 0.28
+        },
+        {
+            "date": "06.07.2025",
+            "good_habit_percents": 0.57,
+            "bad_habit_percents": 0.38
+        },
+        {
+            "date": "07.07.2025",
+            "good_habit_percents": 0.54,
+            "bad_habit_percents": 0.41
+        },
+        {
+            "date": "08.07.2025",
+            "good_habit_percents": 0.31,
+            "bad_habit_percents": 0.57
+        },
+        {
+            "date": "09.07.2025",
+            "good_habit_percents": 0.8,
+            "bad_habit_percents": 0.14
+        },
+        {
+            "date": "10.07.2025",
+            "good_habit_percents": 0.22,
+            "bad_habit_percents": 0.14
+        },
+        {
+            "date": "11.07.2025",
+            "good_habit_percents": 0.28,
+            "bad_habit_percents": 0.73
+        },
+        {
+            "date": "12.07.2025",
+            "good_habit_percents": 0.47,
+            "bad_habit_percents": 0.15
+        },
+        {
+            "date": "13.07.2025",
+            "good_habit_percents": 0.91,
+            "bad_habit_percents": 0.81
+        },
+        {
+            "date": "14.07.2025",
+            "good_habit_percents": 0.37,
+            "bad_habit_percents": 0.21
+        },
+        {
+            "date": "15.07.2025",
+            "good_habit_percents": 0.96,
+            "bad_habit_percents": 0.94
+        },
+        {
+            "date": "16.07.2025",
+            "good_habit_percents": 0.5,
+            "bad_habit_percents": 0.96
+        },
+        {
+            "date": "17.07.2025",
+            "good_habit_percents": 0.39,
+            "bad_habit_percents": 0.0
+        },
+        {
+            "date": "18.07.2025",
+            "good_habit_percents": 0.77,
+            "bad_habit_percents": 0.5
+        },
+        {
+            "date": "19.07.2025",
+            "good_habit_percents": 0.54,
+            "bad_habit_percents": 0.85
+        },
+        {
+            "date": "20.07.2025",
+            "good_habit_percents": 0.89,
+            "bad_habit_percents": 0.18
+        },
+        {
+            "date": "21.07.2025",
+            "good_habit_percents": 0.78,
+            "bad_habit_percents": 0.89
+        },
+        {
+            "date": "22.07.2025",
+            "good_habit_percents": 0.84,
+            "bad_habit_percents": 0.46
+        },
+        {
+            "date": "23.07.2025",
+            "good_habit_percents": 0.27,
+            "bad_habit_percents": 0.67
+        },
+        {
+            "date": "24.07.2025",
+            "good_habit_percents": 0.89,
+            "bad_habit_percents": 0.26
+        },
+        {
+            "date": "25.07.2025",
+            "good_habit_percents": 0.88,
+            "bad_habit_percents": 0.7
+        },
+        {
+            "date": "26.07.2025",
+            "good_habit_percents": 0.73,
+            "bad_habit_percents": 0.51
+        },
+        {
+            "date": "27.07.2025",
+            "good_habit_percents": 0.91,
+            "bad_habit_percents": 0.45
+        },
+        {
+            "date": "28.07.2025",
+            "good_habit_percents": 0.87,
+            "bad_habit_percents": 0.13
+        },
+        {
+            "date": "29.07.2025",
+            "good_habit_percents": 0.58,
+            "bad_habit_percents": 0.56
+        },
+        {
+            "date": "30.07.2025",
+            "good_habit_percents": 0.56,
+            "bad_habit_percents": 0.0
+        },
+        {
+            "date": "31.07.2025",
+            "good_habit_percents": 0.69,
+            "bad_habit_percents": 0.57
+        },
+        {
+            "date": "01.08.2025",
+            "good_habit_percents": 0.35,
+            "bad_habit_percents": 0.24
+        },
+        {
+            "date": "02.08.2025",
+            "good_habit_percents": 0.53,
+            "bad_habit_percents": 0.44
+        },
+        {
+            "date": "03.08.2025",
+            "good_habit_percents": 0.84,
+            "bad_habit_percents": 0.09
+        },
+        {
+            "date": "04.08.2025",
+            "good_habit_percents": 0.65,
+            "bad_habit_percents": 0.19
+        },
+        {
+            "date": "05.08.2025",
+            "good_habit_percents": 0.36,
+            "bad_habit_percents": 0.41
+        },
+        {
+            "date": "06.08.2025",
+            "good_habit_percents": 0.67,
+            "bad_habit_percents": 0.33
+        },
+        {
+            "date": "07.08.2025",
+            "good_habit_percents": 0.51,
+            "bad_habit_percents": 0.3
+        },
+        {
+            "date": "08.08.2025",
+            "good_habit_percents": 0.4,
+            "bad_habit_percents": 0.04
+        },
+        {
+            "date": "09.08.2025",
+            "good_habit_percents": 0.86,
+            "bad_habit_percents": 0.47
+        },
+        {
+            "date": "10.08.2025",
+            "good_habit_percents": 0.29,
+            "bad_habit_percents": 0.11
+        },
+        {
+            "date": "11.08.2025",
+            "good_habit_percents": 0.06,
+            "bad_habit_percents": 0.52
+        },
+        {
+            "date": "12.08.2025",
+            "good_habit_percents": 0.25,
+            "bad_habit_percents": 0.15
+        },
+        {
+            "date": "13.08.2025",
+            "good_habit_percents": 0.73,
+            "bad_habit_percents": 0.95
+        },
+        {
+            "date": "14.08.2025",
+            "good_habit_percents": 0.47,
+            "bad_habit_percents": 0.43
+        },
+        {
+            "date": "15.08.2025",
+            "good_habit_percents": 0.16,
+            "bad_habit_percents": 0.15
+        },
+        {
+            "date": "16.08.2025",
+            "good_habit_percents": 0.17,
+            "bad_habit_percents": 0.42
+        },
+        {
+            "date": "17.08.2025",
+            "good_habit_percents": 0.95,
+            "bad_habit_percents": 0.18
+        },
+        {
+            "date": "18.08.2025",
+            "good_habit_percents": 0.08,
+            "bad_habit_percents": 0.14
+        },
+        {
+            "date": "19.08.2025",
+            "good_habit_percents": 0.57,
+            "bad_habit_percents": 0.91
+        },
+        {
+            "date": "20.08.2025",
+            "good_habit_percents": 0.71,
+            "bad_habit_percents": 0.75
+        },
+        {
+            "date": "21.08.2025",
+            "good_habit_percents": 0.55,
+            "bad_habit_percents": 0.78
+        },
+        {
+            "date": "22.08.2025",
+            "good_habit_percents": 0.14,
+            "bad_habit_percents": 0.12
+        },
+        {
+            "date": "23.08.2025",
+            "good_habit_percents": 0.95,
+            "bad_habit_percents": 0.61
+        },
+        {
+            "date": "24.08.2025",
+            "good_habit_percents": 0.0,
+            "bad_habit_percents": 0.56
+        },
+        {
+            "date": "25.08.2025",
+            "good_habit_percents": 0.22,
+            "bad_habit_percents": 0.6
+        },
+        {
+            "date": "26.08.2025",
+            "good_habit_percents": 0.09,
+            "bad_habit_percents": 0.72
+        },
+        {
+            "date": "27.08.2025",
+            "good_habit_percents": 0.03,
+            "bad_habit_percents": 0.49
+        },
+        {
+            "date": "28.08.2025",
+            "good_habit_percents": 0.19,
+            "bad_habit_percents": 0.87
+        },
+        {
+            "date": "29.08.2025",
+            "good_habit_percents": 0.62,
+            "bad_habit_percents": 0.77
+        },
+        {
+            "date": "30.08.2025",
+            "good_habit_percents": 0.38,
+            "bad_habit_percents": 0.12
+        },
+        {
+            "date": "31.08.2025",
+            "good_habit_percents": 0.26,
+            "bad_habit_percents": 0.46
+        },
+        {
+            "date": "01.09.2025",
+            "good_habit_percents": 0.51,
+            "bad_habit_percents": 0.62
+        },
+        {
+            "date": "02.09.2025",
+            "good_habit_percents": 0.08,
+            "bad_habit_percents": 0.55
+        },
+        {
+            "date": "03.09.2025",
+            "good_habit_percents": 0.12,
+            "bad_habit_percents": 0.94
+        },
+        {
+            "date": "04.09.2025",
+            "good_habit_percents": 0.53,
+            "bad_habit_percents": 0.3
+        },
+        {
+            "date": "05.09.2025",
+            "good_habit_percents": 0.49,
+            "bad_habit_percents": 0.69
+        },
+        {
+            "date": "06.09.2025",
+            "good_habit_percents": 0.34,
+            "bad_habit_percents": 0.15
+        },
+        {
+            "date": "07.09.2025",
+            "good_habit_percents": 0.74,
+            "bad_habit_percents": 0.84
+        },
+        {
+            "date": "08.09.2025",
+            "good_habit_percents": 0.65,
+            "bad_habit_percents": 0.92
+        },
+        {
+            "date": "09.09.2025",
+            "good_habit_percents": 0.76,
+            "bad_habit_percents": 0.24
+        },
+        {
+            "date": "10.09.2025",
+            "good_habit_percents": 0.76,
+            "bad_habit_percents": 0.04
+        },
+        {
+            "date": "11.09.2025",
+            "good_habit_percents": 0.98,
+            "bad_habit_percents": 0.53
+        },
+        {
+            "date": "12.09.2025",
+            "good_habit_percents": 0.74,
+            "bad_habit_percents": 0.09
+        },
+        {
+            "date": "13.09.2025",
+            "good_habit_percents": 0.04,
+            "bad_habit_percents": 0.67
+        },
+        {
+            "date": "14.09.2025",
+            "good_habit_percents": 0.9,
+            "bad_habit_percents": 0.52
+        },
+        {
+            "date": "15.09.2025",
+            "good_habit_percents": 0.24,
+            "bad_habit_percents": 0.69
+        },
+        {
+            "date": "16.09.2025",
+            "good_habit_percents": 0.0,
+            "bad_habit_percents": 0.14
+        },
+        {
+            "date": "17.09.2025",
+            "good_habit_percents": 0.53,
+            "bad_habit_percents": 0.75
+        },
+        {
+            "date": "18.09.2025",
+            "good_habit_percents": 1.0,
+            "bad_habit_percents": 0.95
+        },
+        {
+            "date": "19.09.2025",
+            "good_habit_percents": 0.86,
+            "bad_habit_percents": 0.84
+        },
+        {
+            "date": "20.09.2025",
+            "good_habit_percents": 0.54,
+            "bad_habit_percents": 0.78
+        },
+        {
+            "date": "21.09.2025",
+            "good_habit_percents": 0.75,
+            "bad_habit_percents": 0.77
+        },
+        {
+            "date": "22.09.2025",
+            "good_habit_percents": 0.59,
+            "bad_habit_percents": 0.48
+        },
+        {
+            "date": "23.09.2025",
+            "good_habit_percents": 0.7,
+            "bad_habit_percents": 0.13
+        },
+        {
+            "date": "24.09.2025",
+            "good_habit_percents": 0.4,
+            "bad_habit_percents": 0.49
+        },
+        {
+            "date": "25.09.2025",
+            "good_habit_percents": 0.55,
+            "bad_habit_percents": 0.38
+        },
+        {
+            "date": "26.09.2025",
+            "good_habit_percents": 0.55,
+            "bad_habit_percents": 0.88
+        },
+        {
+            "date": "27.09.2025",
+            "good_habit_percents": 0.5,
+            "bad_habit_percents": 0.83
+        },
+        {
+            "date": "28.09.2025",
+            "good_habit_percents": 0.07,
+            "bad_habit_percents": 0.85
+        },
+        {
+            "date": "29.09.2025",
+            "good_habit_percents": 0.4,
+            "bad_habit_percents": 0.4
+        },
+        {
+            "date": "30.09.2025",
+            "good_habit_percents": 0.99,
+            "bad_habit_percents": 0.19
+        },
+        {
+            "date": "01.10.2025",
+            "good_habit_percents": 0.3,
+            "bad_habit_percents": 0.08
+        },
+        {
+            "date": "02.10.2025",
+            "good_habit_percents": 0.91,
+            "bad_habit_percents": 0.6
+        },
+        {
+            "date": "03.10.2025",
+            "good_habit_percents": 0.89,
+            "bad_habit_percents": 0.73
+        },
+        {
+            "date": "04.10.2025",
+            "good_habit_percents": 0.11,
+            "bad_habit_percents": 0.06
+        },
+        {
+            "date": "05.10.2025",
+            "good_habit_percents": 0.09,
+            "bad_habit_percents": 0.22
+        },
+        {
+            "date": "06.10.2025",
+            "good_habit_percents": 0.47,
+            "bad_habit_percents": 0.08
+        },
+        {
+            "date": "07.10.2025",
+            "good_habit_percents": 0.58,
+            "bad_habit_percents": 0.48
+        },
+        {
+            "date": "08.10.2025",
+            "good_habit_percents": 0.89,
+            "bad_habit_percents": 0.79
+        },
+        {
+            "date": "09.10.2025",
+            "good_habit_percents": 0.42,
+            "bad_habit_percents": 0.38
+        },
+        {
+            "date": "10.10.2025",
+            "good_habit_percents": 0.81,
+            "bad_habit_percents": 0.97
+        },
+        {
+            "date": "11.10.2025",
+            "good_habit_percents": 0.71,
+            "bad_habit_percents": 0.82
+        },
+        {
+            "date": "12.10.2025",
+            "good_habit_percents": 0.44,
+            "bad_habit_percents": 0.41
+        },
+        {
+            "date": "13.10.2025",
+            "good_habit_percents": 0.31,
+            "bad_habit_percents": 0.87
+        },
+        {
+            "date": "14.10.2025",
+            "good_habit_percents": 0.32,
+            "bad_habit_percents": 0.26
+        },
+        {
+            "date": "15.10.2025",
+            "good_habit_percents": 0.17,
+            "bad_habit_percents": 0.11
+        },
+        {
+            "date": "16.10.2025",
+            "good_habit_percents": 0.71,
+            "bad_habit_percents": 0.8
+        },
+        {
+            "date": "17.10.2025",
+            "good_habit_percents": 0.28,
+            "bad_habit_percents": 0.38
+        },
+        {
+            "date": "18.10.2025",
+            "good_habit_percents": 0.02,
+            "bad_habit_percents": 0.92
+        },
+        {
+            "date": "19.10.2025",
+            "good_habit_percents": 0.45,
+            "bad_habit_percents": 0.44
+        },
+        {
+            "date": "20.10.2025",
+            "good_habit_percents": 0.13,
+            "bad_habit_percents": 0.4
+        },
+        {
+            "date": "21.10.2025",
+            "good_habit_percents": 0.94,
+            "bad_habit_percents": 0.01
+        },
+        {
+            "date": "22.10.2025",
+            "good_habit_percents": 0.7,
+            "bad_habit_percents": 0.26
+        },
+        {
+            "date": "23.10.2025",
+            "good_habit_percents": 0.63,
+            "bad_habit_percents": 0.67
+        },
+        {
+            "date": "24.10.2025",
+            "good_habit_percents": 0.6,
+            "bad_habit_percents": 0.39
+        },
+        {
+            "date": "25.10.2025",
+            "good_habit_percents": 0.79,
+            "bad_habit_percents": 0.02
+        },
+        {
+            "date": "26.10.2025",
+            "good_habit_percents": 0.33,
+            "bad_habit_percents": 0.16
+        },
+        {
+            "date": "27.10.2025",
+            "good_habit_percents": 0.82,
+            "bad_habit_percents": 0.69
+        },
+        {
+            "date": "28.10.2025",
+            "good_habit_percents": 0.91,
+            "bad_habit_percents": 0.72
+        },
+        {
+            "date": "29.10.2025",
+            "good_habit_percents": 0.02,
+            "bad_habit_percents": 0.24
+        },
+        {
+            "date": "30.10.2025",
+            "good_habit_percents": 0.17,
+            "bad_habit_percents": 0.17
+        },
+        {
+            "date": "31.10.2025",
+            "good_habit_percents": 0.24,
+            "bad_habit_percents": 0.21
+        },
+        {
+            "date": "01.11.2025",
+            "good_habit_percents": 0.28,
+            "bad_habit_percents": 0.28
+        },
+        {
+            "date": "02.11.2025",
+            "good_habit_percents": 0.3,
+            "bad_habit_percents": 0.74
+        },
+        {
+            "date": "03.11.2025",
+            "good_habit_percents": 0.05,
+            "bad_habit_percents": 0.42
+        },
+        {
+            "date": "04.11.2025",
+            "good_habit_percents": 0.46,
+            "bad_habit_percents": 0.84
+        },
+        {
+            "date": "05.11.2025",
+            "good_habit_percents": 0.24,
+            "bad_habit_percents": 0.13
+        },
+        {
+            "date": "06.11.2025",
+            "good_habit_percents": 0.6,
+            "bad_habit_percents": 0.68
+        },
+        {
+            "date": "07.11.2025",
+            "good_habit_percents": 0.69,
+            "bad_habit_percents": 0.64
+        },
+        {
+            "date": "08.11.2025",
+            "good_habit_percents": 0.03,
+            "bad_habit_percents": 0.93
+        },
+        {
+            "date": "09.11.2025",
+            "good_habit_percents": 0.82,
+            "bad_habit_percents": 0.76
+        },
+        {
+            "date": "10.11.2025",
+            "good_habit_percents": 0.83,
+            "bad_habit_percents": 0.97
+        },
+        {
+            "date": "11.11.2025",
+            "good_habit_percents": 0.97,
+            "bad_habit_percents": 0.84
+        },
+        {
+            "date": "12.11.2025",
+            "good_habit_percents": 0.21,
+            "bad_habit_percents": 0.93
+        },
+        {
+            "date": "13.11.2025",
+            "good_habit_percents": 0.99,
+            "bad_habit_percents": 0.01
+        },
+        {
+            "date": "14.11.2025",
+            "good_habit_percents": 0.97,
+            "bad_habit_percents": 0.7
+        },
+        {
+            "date": "15.11.2025",
+            "good_habit_percents": 0.87,
+            "bad_habit_percents": 0.93
+        },
+        {
+            "date": "16.11.2025",
+            "good_habit_percents": 0.37,
+            "bad_habit_percents": 0.91
+        },
+        {
+            "date": "17.11.2025",
+            "good_habit_percents": 0.15,
+            "bad_habit_percents": 0.3
+        },
+        {
+            "date": "18.11.2025",
+            "good_habit_percents": 0.68,
+            "bad_habit_percents": 0.6
+        },
+        {
+            "date": "19.11.2025",
+            "good_habit_percents": 0.76,
+            "bad_habit_percents": 0.71
+        },
+        {
+            "date": "20.11.2025",
+            "good_habit_percents": 0.54,
+            "bad_habit_percents": 0.86
+        },
+        {
+            "date": "21.11.2025",
+            "good_habit_percents": 0.85,
+            "bad_habit_percents": 0.02
+        },
+        {
+            "date": "22.11.2025",
+            "good_habit_percents": 0.72,
+            "bad_habit_percents": 0.9
+        },
+        {
+            "date": "23.11.2025",
+            "good_habit_percents": 0.86,
+            "bad_habit_percents": 0.04
+        },
+        {
+            "date": "24.11.2025",
+            "good_habit_percents": 1.0,
+            "bad_habit_percents": 0.86
+        },
+        {
+            "date": "25.11.2025",
+            "good_habit_percents": 0.42,
+            "bad_habit_percents": 0.04
+        },
+        {
+            "date": "26.11.2025",
+            "good_habit_percents": 0.99,
+            "bad_habit_percents": 0.2
+        },
+        {
+            "date": "27.11.2025",
+            "good_habit_percents": 0.26,
+            "bad_habit_percents": 0.44
+        },
+        {
+            "date": "28.11.2025",
+            "good_habit_percents": 0.99,
+            "bad_habit_percents": 0.3
+        },
+        {
+            "date": "29.11.2025",
+            "good_habit_percents": 0.61,
+            "bad_habit_percents": 0.33
+        },
+        {
+            "date": "30.11.2025",
+            "good_habit_percents": 0.85,
+            "bad_habit_percents": 0.9
+        },
+        {
+            "date": "01.12.2025",
+            "good_habit_percents": 0.08,
+            "bad_habit_percents": 0.59
+        },
+        {
+            "date": "02.12.2025",
+            "good_habit_percents": 0.07,
+            "bad_habit_percents": 0.45
+        },
+        {
+            "date": "03.12.2025",
+            "good_habit_percents": 0.24,
+            "bad_habit_percents": 0.83
+        },
+        {
+            "date": "04.12.2025",
+            "good_habit_percents": 0.78,
+            "bad_habit_percents": 0.38
+        },
+        {
+            "date": "05.12.2025",
+            "good_habit_percents": 0.1,
+            "bad_habit_percents": 0.68
+        },
+        {
+            "date": "06.12.2025",
+            "good_habit_percents": 0.74,
+            "bad_habit_percents": 0.71
+        },
+        {
+            "date": "07.12.2025",
+            "good_habit_percents": 0.41,
+            "bad_habit_percents": 0.84
+        },
+        {
+            "date": "08.12.2025",
+            "good_habit_percents": 0.64,
+            "bad_habit_percents": 0.97
+        },
+        {
+            "date": "09.12.2025",
+            "good_habit_percents": 0.38,
+            "bad_habit_percents": 0.3
+        },
+        {
+            "date": "10.12.2025",
+            "good_habit_percents": 0.62,
+            "bad_habit_percents": 0.1
+        },
+        {
+            "date": "11.12.2025",
+            "good_habit_percents": 0.49,
+            "bad_habit_percents": 0.02
+        },
+        {
+            "date": "12.12.2025",
+            "good_habit_percents": 0.63,
+            "bad_habit_percents": 1.0
+        },
+        {
+            "date": "13.12.2025",
+            "good_habit_percents": 0.6,
+            "bad_habit_percents": 0.92
+        },
+        {
+            "date": "14.12.2025",
+            "good_habit_percents": 0.82,
+            "bad_habit_percents": 0.2
+        },
+        {
+            "date": "15.12.2025",
+            "good_habit_percents": 0.09,
+            "bad_habit_percents": 0.94
+        },
+        {
+            "date": "16.12.2025",
+            "good_habit_percents": 0.04,
+            "bad_habit_percents": 0.68
+        },
+        {
+            "date": "17.12.2025",
+            "good_habit_percents": 0.76,
+            "bad_habit_percents": 0.28
+        },
+        {
+            "date": "19.12.2025",
+            "good_habit_percents": 1.0,
+            "bad_habit_percents": 0.4666666666666667
+        },
+        {
+            "date": "22.12.2025",
+            "good_habit_percents": 0.5,
+            "bad_habit_percents": 0.2
+        },
+        {
+            "date": "23.12.2025",
+            "good_habit_percents": 0.75,
+            "bad_habit_percents": 0.3333333333333333
+        }
+    ]
+}
