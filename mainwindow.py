@@ -3,8 +3,9 @@ from PySide6.QtCharts import (QChart, QChartView, QBarSeries,
                               QBarSet, QBarCategoryAxis)
 from PySide6 import QtCore, QtWidgets, QtGui
 
-from classes import CircularProgressBar, HabitsHorizontalLayout
-from functions import (load_day_stat, load_global_stat, load_stat_percents,
+from classes import ButtonInDiary, CircularProgressBar, HabitsHorizontalLayout
+from functions import (load_day_stat, load_entries, load_global_stat, load_points,
+                       load_stat_percents,
                        load_ui, load_habits,
                        update_global_stat)
 
@@ -27,13 +28,13 @@ class MainWindow(QtWidgets.QMainWindow):
         year_layout.addWidget(self.circular_progress)
         self.month_tab = self.ui.findChild(QtWidgets.QWidget, "month_tab")
         QtWidgets.QVBoxLayout(self.month_tab)
-
+        add_entry_button = self.ui.findChild(QtWidgets.QPushButton,
+                                             "add_entry")
+        add_entry_button.clicked.connect(
+            lambda: self.open_adding_entry_dialog()
+            )
         self.setGeometry(100, 100, 1000, 700)
         self.setMinimumWidth(1000)
-        self.notify = self.ui.findChild(QtWidgets.QPushButton, "pushButton")
-        self.notify.clicked.connect(self.show_system_notification)
-        self.tray_icon = QtWidgets.QSystemTrayIcon(self)
-        self.create_tray_icon()
         self.update_tab()
 
     def clear_layout(self, layout):
@@ -59,8 +60,10 @@ class MainWindow(QtWidgets.QMainWindow):
         data = load_global_stat(time=time)
         if time != "day":
             self.clear_layout(current_tab.layout())
-            good_habits = QBarSet("хорошие привычки", color=QtGui.QColor("#3f8f3d"))
-            bad_habits = QBarSet("плохие привычки", color=QtGui.QColor("#B10F0F"))
+            good_habits = QBarSet("хорошие привычки",
+                                  color=QtGui.QColor("#3f8f3d"))
+            bad_habits = QBarSet("плохие привычки",
+                                 color=QtGui.QColor("#B10F0F"))
             for i in range(len(data[0])):
                 good_habits << data[0][i]
                 bad_habits << data[1][i]
@@ -90,6 +93,7 @@ class MainWindow(QtWidgets.QMainWindow):
                                                     QtGui.QColor("#b33a3a"))
             current_tab.layout().addWidget(circ_prog_bar_good)
             current_tab.layout().addWidget(circ_prog_bar_bad)
+
     def generate_dnevnik_tab(self, current_tab):
         scroll_area = current_tab.findChild(QtWidgets.QScrollArea,
                                             "dnevnik_list_scrollarea")
@@ -103,7 +107,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 container_layout.setSpacing(20)
             container_layout.setAlignment(QtCore.Qt.AlignTop)
             scroll_area = QtWidgets.QScrollArea(current_tab)
-            scroll_area.setObjectName("habits_list_scrollarea")
+            scroll_area.setObjectName("dnevnik_list_scrollarea")
             scroll_area.setWidgetResizable(True)
             scroll_area.setHorizontalScrollBarPolicy(
                 QtCore.Qt.ScrollBarAlwaysOff)
@@ -119,6 +123,32 @@ class MainWindow(QtWidgets.QMainWindow):
                 container_layout = QtWidgets.QVBoxLayout(container)
                 container_layout.setObjectName("list_entry_layout")
                 container_layout.setSpacing(20)
+        self.clear_layout(container_layout)
+        diary_entries = load_entries()
+        for key in diary_entries:
+            label = QtWidgets.QLabel("-----------------------" + key[0] +
+                                     "-----------------------")
+            label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+            container_layout.addWidget(label)
+            date = key[0]
+            for elem in key[1]:
+                container_layout.addWidget(ButtonInDiary(text_of=elem['text'],
+                                                         name=elem['name'],
+                                                         date=date))
+
+    def open_entry_view_dialog(self, text, name, date):
+        from dialogs.entry_view import EntryView
+        dialog = EntryView(self, text, name, date)
+        dialog.setGeometry(150, 150, 400, 400)
+        if dialog.exec() == QtWidgets.QDialog.Accepted:
+            self.update_tab()
+
+    def open_adding_entry_dialog(self):
+        from dialogs.adding_diary_entry import AddingEntry
+        dialog = AddingEntry(self)
+        dialog.setGeometry(150, 150, 400, 400)
+        if dialog.exec() == QtWidgets.QDialog.Accepted:
+            self.update_tab()
 
     def generate_habit_tab(self, current_tab, type_habit="good_habits"):
         self.add_good_habit_button = QtWidgets.QPushButton(
@@ -170,7 +200,8 @@ class MainWindow(QtWidgets.QMainWindow):
         if type_habit == "bad_habits":
             self.add_good_habit_button.setText("Добавить вредную привычку")
             self.add_good_habit_button.setStyleSheet(
-                "background-color: rgba(187, 58, 58, 0.83); border-radius: 5px;padding: 5px;")
+                "background-color: rgba(187, 58, 58, 0.83);"
+                " border-radius: 5px; padding: 5px;")
         else:
             self.add_good_habit_button.setText("Добавить полезную привычку")
             self.add_good_habit_button.setStyleSheet(
@@ -227,12 +258,13 @@ class MainWindow(QtWidgets.QMainWindow):
                     load_stat_percents(type_habit))
 
     def update_tab(self):
+        self.ui.points.setText("Баллы: " + str(load_points()))
         current_tab = self.tab_widget.currentWidget()
         print(current_tab.objectName())
         if current_tab.objectName() == "statistics_tab":
             current_tab = self.tab_stat_widget.currentWidget()
             if current_tab.objectName() == "year_tab":
-                self.generate_chart(current_tab)         
+                self.generate_chart(current_tab)
             elif current_tab.objectName() == "month_tab":
                 self.generate_chart(current_tab)
             elif current_tab.objectName() == "day_tab":
@@ -241,6 +273,8 @@ class MainWindow(QtWidgets.QMainWindow):
             self.generate_habit_tab(current_tab, type_habit="good_habits")
         elif current_tab.objectName() == "bad_habits_tab":
             self.generate_habit_tab(current_tab, type_habit="bad_habits")
+        elif current_tab.objectName() == "dnevnik":
+            self.generate_dnevnik_tab(current_tab)
 
     def open_adding_habit_dialog(self, habit_class):
         from dialogs.adding_habit import AddingHabit

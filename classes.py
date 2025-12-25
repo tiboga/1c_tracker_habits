@@ -2,6 +2,24 @@ from PySide6 import QtCore, QtWidgets, QtGui
 
 from functions import delete_habits, update_stat
 
+class ButtonInDiary(QtWidgets.QPushButton):
+    def __init__(self, parent=None, text_of=None, name=None, date=None,
+                 label=None):
+        super().__init__(parent)
+        self.setText(name)
+        self.name = name
+        self.text_of = text_of
+        self.date = date
+        self.clicked.connect(self.open_entry_view_dialog)
+        self.setFixedHeight(30)
+        
+    def open_entry_view_dialog(self):
+        from dialogs.entry_view import EntryView
+        dialog = EntryView(self, self.text_of, self.name, self.date)
+        dialog.setGeometry(150, 150, 400, 400)
+        if dialog.exec() == QtWidgets.QDialog.Accepted:
+            self.update_tab()
+
 
 class HabitsHorizontalLayout(QtWidgets.QHBoxLayout):
     def __init__(self, h_id, parent=None, name="None", points=0,

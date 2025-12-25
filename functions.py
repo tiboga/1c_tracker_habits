@@ -96,7 +96,40 @@ def load_global_stat(time="year"):
 def update_stat(habit_id, habit_class):
     json_dict = json.load(open("data.json"))
     json_dict["stat_for_day"]["habits"][habit_class][habit_id]["ended"] = True
+    json_dict["points"] += json_dict["habits"][habit_class][habit_id]["points"]
     json.dump(json_dict, open("data.json", "w"), indent=4)
+
+
+def load_points():
+    return json.load(open("data.json"))['points']
+
+
+def add_diary_entry(name, text):
+    json_dict = json.load(open("diary.json"))
+    if datetime.datetime.now().strftime("%d.%m.%Y") in json_dict["entries"].keys():
+        json_dict["entries"][datetime.datetime.now().strftime("%d.%m.%Y")].append(
+            {
+                "id": json_dict["last_id"],
+                "name": name,
+                "text": text,
+            }
+        )
+    else:
+        json_dict["entries"][datetime.datetime.now().strftime("%d.%m.%Y")] = [
+            {
+                "id": json_dict["last_id"],
+                "name": name,
+                "text": text,
+            }
+        ]
+    json_dict["last_id"] += 1
+    json.dump(json_dict, open("diary.json", 'w'), indent=4)
+
+
+def load_entries():
+    return sorted(json.load(open("diary.json"))["entries"].items(),
+                  key=lambda x: x[0],
+                  reverse=True)
 
 
 def update_global_stat():

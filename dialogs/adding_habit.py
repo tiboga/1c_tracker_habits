@@ -9,6 +9,9 @@ class AddingHabit(QtWidgets.QDialog):
         self.setWindowTitle("Добавить привычку")
         self.ui = load_ui("ui/adding_habit.ui", self)
         self.setLayout(self.ui.layout())
+        self.ui.name_habit_lineEdit.textChanged.connect(self.text_changed)
+        self.ui.buttonBox.button(
+            QtWidgets.QDialogButtonBox.Ok).setEnabled(False)
         self.ui.buttonBox.accepted.connect(self.add_habit)
         self.ui.buttonBox.rejected.connect(self.reject)
         self.habit_class = habit_class
@@ -18,3 +21,11 @@ class AddingHabit(QtWidgets.QDialog):
         habit_points = self.ui.points_habit_spinBox.value()
         save_habits(habit_name, self.habit_class, habit_points)
         self.accept()
+
+    def text_changed(self):
+        if self.ui.name_habit_lineEdit.text() == "":
+            self.ui.buttonBox.button(
+                QtWidgets.QDialogButtonBox.Ok).setEnabled(False)
+        else:
+            self.ui.buttonBox.button(
+                QtWidgets.QDialogButtonBox.Ok).setEnabled(True)
