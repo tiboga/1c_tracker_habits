@@ -3,6 +3,6 @@
 После распаковки необходимо запустить файл mainwindow.exe
 # Ссылки
 - Резервная ссылка на архив с exe
-https://disk.yandex.ru/d/kucrftJIjnBPsw
+https://disk.yandex.ru/d/RugqxwekICiQyA
 - Релиз на гх
 https://github.com/tiboga/1c_tracker_habits/releases/tag/realese
