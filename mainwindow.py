@@ -33,8 +33,8 @@ class MainWindow(QtWidgets.QMainWindow):
         add_entry_button.clicked.connect(
             lambda: self.open_adding_entry_dialog()
             )
-        self.setGeometry(100, 100, 1000, 700)
-        self.setMinimumWidth(1000)
+        self.setGeometry(100, 100, 1000, 500)
+        self.setMinimumWidth(900)
         self.update_tab()
 
     def clear_layout(self, layout):
@@ -260,7 +260,6 @@ class MainWindow(QtWidgets.QMainWindow):
     def update_tab(self):
         self.ui.points.setText("Баллы: " + str(load_points()))
         current_tab = self.tab_widget.currentWidget()
-        print(current_tab.objectName())
         if current_tab.objectName() == "statistics_tab":
             current_tab = self.tab_stat_widget.currentWidget()
             if current_tab.objectName() == "year_tab":

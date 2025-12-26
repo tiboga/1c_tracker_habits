@@ -1,29 +1,29 @@
 {
-    "points": 17,
+    "points": 33,
     "stat_for_day": {
-        "date": "25.12.2025",
+        "date": "26.12.2025",
         "habits": {
             "good_habits": {
                 "73": {
-                    "ended": true
+                    "ended": false
                 },
                 "89": {
-                    "ended": true
+                    "ended": false
                 },
                 "90": {
-                    "ended": true
+                    "ended": false
                 },
                 "91": {
                     "ended": true
                 },
                 "92": {
-                    "ended": true
+                    "ended": false
                 },
                 "93": {
-                    "ended": true
+                    "ended": false
                 },
                 "94": {
-                    "ended": true
+                    "ended": false
                 },
                 "96": {
                     "ended": true
@@ -31,31 +31,34 @@
             },
             "bad_habits": {
                 "74": {
-                    "ended": true
+                    "ended": false
                 },
                 "78": {
-                    "ended": true
+                    "ended": false
                 },
                 "80": {
-                    "ended": true
+                    "ended": false
                 },
                 "82": {
-                    "ended": true
+                    "ended": false
                 },
                 "85": {
-                    "ended": true
+                    "ended": false
                 },
                 "87": {
-                    "ended": true
+                    "ended": false
                 },
                 "95": {
                     "ended": true
+                },
+                "97": {
+                    "ended": false
                 }
             }
         }
     },
     "habits": {
-        "last_id": 96,
+        "last_id": 97,
         "good_habits": {
             "73": {
                 "name": "asd",
@@ -117,6 +120,10 @@
             },
             "95": {
                 "name": "asdasd",
+                "points": 4
+            },
+            "97": {
+                "name": "\u041f\u043e\u043a\u043e\u0440\u043c\u0438\u0442\u044c \u0441\u043e\u0431\u0430\u043a\u0443, \u0447\u0442\u043e\u0431\u044b \u0431\u044b\u043b\u043e \u0432\u0441\u0435 \u0445\u043e\u0440\u043e\u0448\u043e",
                 "points": 4
             }
         }
@@ -1041,6 +1048,11 @@
             "date": "24.12.2025",
             "good_habit_percents": 0.5,
             "bad_habit_percents": 0.3333333333333333
+        },
+        {
+            "date": "25.12.2025",
+            "good_habit_percents": 1.0,
+            "bad_habit_percents": 1.0
         }
     ]
 }
